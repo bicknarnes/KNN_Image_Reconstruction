@@ -9,6 +9,8 @@ This is an implementation of the K-nearest neighbors algorithm for image reconst
 
 ### Results
 
+#### Percentage Removed
+
 <img src="figs/knn10p.png" width=1500>
 
 KNN does surprisingly on very little data, like here with 90% of the pixels removed. 
@@ -16,6 +18,8 @@ KNN does surprisingly on very little data, like here with 90% of the pixels remo
 The final product should be graded on a curve. Consider **1)** just the simplicity in how it was put back together, and **2)** how a person might do if given that middle image, a few hours, and some art supplies.
 
 <img src="figs/knn50.png" width=1500>
+
+#### How many Neighbors(K)
 
 Along with varying the percentage of pixels removed, the other variable of interest is K: how many neighbors. 
 
