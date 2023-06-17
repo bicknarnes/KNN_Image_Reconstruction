@@ -15,11 +15,6 @@ KNN does surprisingly on very little data, like here with 90% of the pixels remo
 
 The final product should be graded on a curve. Consider **1)** just the simplicity in how it was put back together, and **2)** how a person might do if given that middle image, a few hours, and some art supplies.
 
-
-<img src="figs/landscape.png" width=1500>
-
-It also did okay at least recognizing the locations of the items in this landscape, like the clouds, person, and rocks in the foreground (50% pixels removed). 
-
 <img src="figs/knn50.png" width=1500>
 
 Along with varying the percentage of pixels removed, the other variable of interest is K: how many neighbors. 
@@ -28,7 +23,7 @@ Along with varying the percentage of pixels removed, the other variable of inter
 
 If K is arbitrarily high, eventually you're replacing empty pixels with something closer to an averaged pixel value for the whole image. Things get blurry. 
 
-<img src="figs/knnk50.png" width=1500>
+<img src="figs/knnk1.png" width=1500>
 
 If K is 1, you're arbitrarily grabbing very specific data and weighting it way too heavily. Things get blocky. 
 
@@ -48,4 +43,5 @@ To test it consider using 10x10_face.png in the 'lowres' folder (as in, low reso
 
 In general this whole thing works best with small images. It's value (imo) is as an educational tool to gain some intuition around KNN. 
 
+<img src="figs/landscape.png" width=1500>
 
