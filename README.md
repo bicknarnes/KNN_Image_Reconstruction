@@ -1,6 +1,6 @@
 ## KNN Image Reconstruction 
 
-This was a group project! Credit is due to: Jake Simonds, Gaurav, Patrick Gilfether. 
+This was a group project! Created by: Nick Barnes, Jake Simonds, Gaurav, Patrick Gilfether. 
 
 ### What is it? 
 
